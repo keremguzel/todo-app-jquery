@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(90deg, rgba(93,93,133,1) 20%, rgba(36,107,157,1) 63%, rgba(66,184,168,1) 82%);
+    font-family: 'Spartan';
+}
+
+.container{
+    background: radial-gradient(circle, rgba(178,231,250,0.5441526952577906) 1%, rgba(207,247,255,0.9951330874146533) 96%);
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    /*border: 1px solid #4248744d; */
+}
+
+.completed{
+    color:grey;
+    text-decoration: line-through;
+}
+
+h1{
+    text-align: center;
+    background-color: #424874;
+    color:white;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+li{
+    padding: 10px;
+    background:radial-gradient(circle, rgba(178,231,250,0.5441526952577906) 1%, rgba(207,247,255,0.9951330874146533) 96%);
+    
+}
+
+li:nth-child(2n){
+    background: #EBEBEB;
+}
+
+
+ul{
+    list-style: none;
+    margin:0; 
+    padding:0;
+
+}
+
+
+input{
+    width: 50%;
+    background-color:#f4eeff;
+   /* border: 3px solid #424874; */ 
+    padding: 10px 64px 10px 10px;
+    box-sizing: border-box; 
+    color:#424874;
+    font-family: "Spartan";
+    font-weight: 800;
+    border-style: none;
+    transition: width .5s ease-in-out;
+
+}  
+
+
+
+input:focus {   
+    width: 100%;
+    outline: none;
+    text-transform:capitalize;
+    
+  } 
+
+
+
+.fa-stream{
+    float: right;
+    padding-right: 40px;
+}
+
+.fa-trash-alt{
+    color:red;
+}
+
